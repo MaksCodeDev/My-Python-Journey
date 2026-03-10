@@ -3,9 +3,6 @@ def show_messages(messages):
     for message in messages:
         print(message)
 
-
-
-
 def send_messages(send, messages):
     """Выводит ответ"""
 
@@ -18,4 +15,5 @@ my_list = ['привет', 'я учу питон', 'у меня скоро эк�
 new_mes = []
 
 send_messages(new_mes, my_list)
+
 show_messages(new_mes)
