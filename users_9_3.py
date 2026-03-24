@@ -13,7 +13,7 @@ class User:
         print(f"Возраст {self.age}")
 
     def greet_user(self):
-        """Пиветствие"""
+        """Приветствие"""
         print(f"Добро пожаловать {self.first_name}")
 
 user_1 = User('Виктор', 'баринов', 'Москва', 68)
